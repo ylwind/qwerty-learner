@@ -17,9 +17,7 @@ const Footer: React.FC = () => {
     <>
       <div className="mt-4 w-full pb-1 text-center text-sm ease-in" onClick={(e) => e.currentTarget.blur()}>
         <div className="group relative inline-block ">
-          <a href="https://www.ripic.site" target="_blank" className="mr-3 text-gray-500 dark:text-gray-400" title="个人博客">
-            By 杨柳自留地
-          </a>
+          Powered by <a href="https://www.ripic.site" target="_blank" className="mr-3 text-gray-500 dark:text-gray-400" title="个人博客">杨柳自留地</a>
           <div className="invisible absolute bottom-full left-1/2 -ml-20 flex w-40 items-center justify-center pt-2 group-hover:visible">
             <span className="py-1 px-3 text-xs text-gray-500 dark:text-gray-400">个人博客</span>
           </div>
